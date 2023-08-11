@@ -5,7 +5,7 @@ SCRIPTDIR="$(dirname "${BASH_SOURCE[0]}")"
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # @Author      : Jason
-# @Contact     : casjaysdev@casjay.net
+# @Contact     : casjaysdev@casjay.pro
 # @File        : closings
 # @Created     : 16/03/2020
 # @License     : WTFPL
@@ -35,7 +35,7 @@ echo "<a href=./$file>./$file</a><br>" >> "$folder/index.html"
 
 cat ./header.html > index.html
 echo -e "<h1 class="text-danger"><center>Current closings for the capital region: $count</center></h1>" >> index.html
-echo -e "<h2 class="text-success"><center><a href="http://covid19.casjay.net" target="_blank">covid19.casjay.net</a></center></h2>" >> index.html
+echo -e "<h2 class="text-success"><center><a href="http://covid19.casjay.pro" target="_blank">covid19.casjay.pro</a></center></h2>" >> index.html
 echo -e "<h6 class="text-warning"><center>Updated on: $(date +"%m-%d-%y at %H:%M")  from $srchtml</center></h6><br /></br>" >> index.html
 echo -e "$url" >> index.html
 cat ./footer.html >> index.html
